@@ -20,6 +20,7 @@ cumulus-primitives-core.workspace = true
 default = ["std"]
 std = [
 	"codec/std",
+	"futures/std",
 	"cumulus-primitives-core/std",
 	"sp-inherents/std",
 	"sp-timestamp/std",
